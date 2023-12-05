@@ -10,6 +10,8 @@
         const artists = data.map((d) => d.artist);
         const years = Array.from(new Set(data.map((d) => d.year))); // Get unique years from the dataset
 
+        console.log(data)
+
         const colorScale = d3
             .scaleLinear()
             .domain([0, d3.max(data, (d) => d.value)])
