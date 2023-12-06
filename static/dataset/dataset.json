@@ -1,0 +1,67 @@
+{
+    "joji": {
+        "artist": "Joji",
+        "album": "albumname1",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    },
+
+    "oliviaRodrigo": {
+        "artist": "Olivia Rodrigo",
+        "album": "albumname2",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    },
+
+    "brunoMars": {
+        "artist": "Bruno Mars",
+        "album": "albumname3",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    },
+
+    "cardiB": {
+        "artist": "Cardi B",
+        "album": "albumname4",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    },
+
+    "troyeSivan": {
+        "artist": "Troye Sivan",
+        "album": "albumname5",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    },
+
+    "hayleyKiyoko": {
+        "artist": "Hayley Kiyoko",
+        "album": "albumname6",
+        "values": {
+            "oh": 3,
+            "yea": 5,
+            "uhh": 2,
+            "la": 10
+        }
+    }
+}
