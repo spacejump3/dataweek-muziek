@@ -28,6 +28,7 @@
                     key,
                     value,
                     image: artist.image,
+                    album: artist.album,
                 });
             });
             return acc;
@@ -99,6 +100,10 @@
                 d3.select(this.parentNode)
                     .selectAll('text')
                     .attr('visibility', 'visible');
+
+                d3.select(this.parentNode)
+                    .selectAll('rect')
+                    .attr('visibility', 'visible');
             })
             .on('mouseout', function () {
                 d3.select(this)
@@ -108,16 +113,55 @@
                 d3.select(this.parentNode)
                     .selectAll('text')
                     .attr('visibility', 'hidden');
+
+                d3.select(this.parentNode)
+                    .selectAll('rect')
+                    .attr('visibility', 'hidden');
             });
 
         circles
+            .append('rect')
+            .attr('width', 120) // Adjust the width as needed
+            .attr('height', 60) // Adjust the height as needed
+            .attr('x', -60) // Adjust the x position based on the width
+            .attr('y', 18) // Adjust the y position based on the height
+            .attr('rx', 5) // Border radius
+            .attr('ry', 5) // Border radius
+            .style('fill', 'black') // Background color
+            .style('stroke', 'white')
+            .attr('visibility', 'hidden');
+
+        circles
             .append('text')
-            .text('hello') // You can dynamically set the text based on your data
+            .text((d) => d.artist) // You can dynamically set the text based on your data
             .style('fill', 'white')
-            .attr('dy', 20)
+            .attr('dy', 40)
             .attr('text-anchor', 'middle')
             .attr('alignment-baseline', 'middle')
+            .style('text-shadow', '.1em .1em .1em black')
             .attr('visibility', 'hidden');
+
+        circles
+            .append('text')
+            .text((d) => d.album) // You can dynamically set the text based on your data
+            .style('fill', 'white')
+            .attr('dy', 55)
+            .attr('text-anchor', 'middle')
+            .attr('alignment-baseline', 'middle')
+            .style('text-shadow', '.1em .1em .1em black')
+            .attr('visibility', 'hidden');
+
+        circles
+            .append('text')
+            .text((d) => d.value) // You can dynamically set the text based on your data
+            .style('fill', 'white')
+            .attr('dy', 70)
+            .attr('text-anchor', 'middle')
+            .attr('alignment-baseline', 'middle')
+            .style('text-shadow', '.1em .1em .1em black')
+            .attr('visibility', 'hidden');
+
+        circles.selectAll('text').raise();
 
         // Add text on top of each circle
         svg.selectAll('.text')
@@ -127,7 +171,7 @@
             .attr('class', 'text')
             .attr('text-anchor', 'middle')
             .attr('alignment-baseline', 'middle')
-            .text((d) => `${d.key}: ${d.value}`)
+            .text((d) => d.key)
             .attr('fill', '#fff')
             .style('text-shadow', '.1em .1em .1em black');
 
