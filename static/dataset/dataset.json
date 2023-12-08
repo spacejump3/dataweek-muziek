@@ -1,13 +1,30 @@
 {
     "postMalone": {
         "artist": "Post Malone",
-        "album": "albumname1",
+        "album": "AUSTIN",
         "image": "img/post.jpg",
         "values": {
-            "oh": 3,
-            "yea": 5,
-            "uhh": 2,
-            "la": 10
+            "mm": 2,
+            "mm-mm": 6,
+            "hah": 2,
+            "ooh": 14,
+            "ooh-ooh": 4,
+            "ooh-ooh-ooh": 4,
+            "ooh-ah": 1,
+            "oh": 8,
+            "uh-oh": 1,
+            "uh": 6,
+            "ah": 9,
+            "ah-ah": 12,
+            "ah-ah-ah": 7,
+            "oh-oh-oh": 9,
+            "hah-hah": 30,
+            "ahh": 6,
+            "la": 10,
+            "la-la": 14,
+            "woo": 1,
+            "da-da": 2,
+            "dum-dum": 2
         }
     },
 
@@ -16,58 +33,97 @@
         "album": "albumname2",
         "image": "img/olivia.jpg",
         "values": {
-            "oh": 9,
-            "ah": 7,
-            "blah": 20,
-            "god": 8
+            "oh": 45,
+            "ooh": 6,
+            "ah": 29,
+            "ah-ha-ha": 1,
+            "woo": 2,
+            "woah": 1,
+            "woohoo": 1,
+            "la": 24,
+            "la-da-da-da": 3,
+            "ugh": 1,
+            "uh-huh": 1
         }
     },
 
     "drake": {
         "artist": "Drake",
-        "album": "albumname3",
+        "album": "For all the dogs",
         "image": "img/drake.jpg",
         "values": {
-            "oh": 3,
-            "yea": 5,
-            "uhh": 2,
-            "la": 10
+            "grr": 3,
+            "oh": 16,
+            "oh-oh-oh": 1,
+            "ooh": 9,
+            "ah": 2,
+            "ah-ah-ah": 1,
+            "uh": 4,
+            "mm": 2,
+            "tss": 6,
+            "woah": 6,
+            "woo": 3,
+            "fah": 12,
+            "ayy": 26,
+            "huh": 12,
+            "grrah": 2
         }
     },
 
-    "cardiB": {
-        "artist": "Cardi B",
-        "album": "albumname4",
-        "image": "img/cardi.jpg",
+    "dojaCat": {
+        "artist": "Doja Cat",
+        "album": "Scarlet",
+        "image": "img/dojacat.jpg",
         "values": {
-            "oh": 3,
-            "yea": 5,
-            "uhh": 2,
-            "la": 10
+            "ugh": 4,
+            "uh": 40,
+            "uh-huh": 2,
+            "oh": 34,
+            "ooh": 1,
+            "woo": 4,
+            "ayy": 29,
+            "ah": 17,
+            "ha": 2,
+            "rawr": 1,
+            "ay-yi": 5,
+            "mm": 18,
+            "hmm": 2,
+            "grrah": 26,
+            "da-da-da": 20
         }
     },
 
     "troyeSivan": {
         "artist": "Troye Sivan",
-        "album": "albumname5",
+        "album": "Something to give",
         "image": "img/troy.jpg",
         "values": {
-            "oh": 3,
-            "yea": 5,
-            "uhh": 2,
-            "la": 10
+            "oh": 32,
+            "ah": 10,
+            "aah": 2,
+            "aah-ooh": 11,
+            "la-la-la": 4,
+            "la-la-la-la": 10,
+            "mm": 2
         }
     },
 
-    "hayleyKiyoko": {
-        "artist": "Hayley Kiyoko",
-        "album": "albumname6",
-        "image": "img/hayley.jpg",
+    "janelleMonae": {
+        "artist": "Janelle Monaé",
+        "album": "The age of pleasure",
+        "image": "img/janelle.jpg",
         "values": {
+            "woo": 4,
+            "mm": 6,
+            "mmm": 23,
+            "mmm-mmm": 2,
+            "ush": 12,
             "oh": 3,
-            "yea": 5,
-            "uhh": 2,
-            "la": 10
+            "ooh": 19,
+            "uh": 66,
+            "ah": 3,
+            "ayy": 3,
+            "le-lo-lai": 3
         }
     }
 }

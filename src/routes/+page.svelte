@@ -1,19 +1,57 @@
 <script>
-    import Graph from '../components/Graph.svelte';
     import BubbleChart from '../components/BubbleChart.svelte';
 </script>
 
 <body>
-    <h1>Bubble Chart</h1>
-    <!-- <Graph /> -->
+    <div>
+        <h1>Hoe vaak weten artiesten niet wat ze moeten zeggen?</h1>
+        <p>
+            Hoor je ook niet veelste vaak al die <em>oh's</em>, <em>ahh's</em>
+            of misschien zelfs <em>grrahs</em> in je favoriete pop nummers? Het
+            voelt altijd een beetje als filler tekst. Dit wordt ook wel een vocalise genoemd, waarbij er wordt gezongen zonder echte woorden te gebruiken. Wij hebben een bubble
+            chart gemaakt van hoe vaak een vocalise wordt gebruikt van
+            zes verschillende artiesten. Van elke artiest hebben we een album uit 2023 gekozen. Sleep je cursor
+            over de cirkels om exact te zien hoe vaak ze een specifiek woord
+            zeggen en je zult zien <em>hoe vaak</em> artiesten niet weten wat ze
+            moeten zeggen. Geniet van de resultaten!
+        </p>
+    </div>
     <BubbleChart />
 </body>
 
+<footer>Gemaakt door Stephan en Michelle &copy; 2023</footer>
+
 <style>
     body {
-        text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
         color: white;
-        background-color: rgb(28, 27, 31);
+        background: linear-gradient(
+            180deg,
+            rgba(28, 27, 31, 1) 0%,
+            rgb(0, 0, 0) 100%
+        );
+    }
+
+    div {
+        margin: auto;
+        width: 50em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        width: 20em;
+        text-align: start;
+    }
+
+    p {
+        width: 30em;
+        font-size: 1.5em;
+        line-height: 1.4em;
+        text-align: start;
+    }
+
+    footer {
+        opacity: 0.5;
     }
 </style>
